@@ -3,65 +3,70 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 @layer base {
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-bold;
-  }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-bold;
+    }
 }
 
 @layer components {
-  .btn {
-    @apply bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md transition duration-300;
-  }
+    .btn {
+        @apply rounded-md bg-green-600 px-4 py-2 font-bold text-white transition duration-300 hover:bg-green-700;
+    }
 }
 
 /* Custom styles for react-slick */
 .slick-list {
-  margin: 0 -10px;
+    margin: 0 -10px;
 }
 
 .slick-slide > div {
-  padding: 0 10px;
+    padding: 0 10px;
 }
 
 .slick-prev,
 .slick-next {
-  z-index: 10;
+    z-index: 10;
 }
 
 .slick-prev {
-  left: -25px;
+    left: -25px;
 }
 
 .slick-next {
-  right: -25px;
+    right: -25px;
 }
 
 .slick-prev:before,
 .slick-next:before {
-  color: #10B981;
+    color: #10b981;
 }
 
 .slick-dots {
-  bottom: -40px;
+    bottom: -40px;
 }
 
 .slick-dots li button:before {
-  color: #10B981;
+    color: #10b981;
 }
 
 .slick-dots li.slick-active button:before {
-  color: #059669;
+    color: #059669;
 }
 
 @media (max-width: 768px) {
-  .slick-prev {
-    left: -15px;
-  }
-  .slick-next {
-    right: -15px;
-  }
+    .slick-prev {
+        left: -15px;
+    }
+    .slick-next {
+        right: -15px;
+    }
 }
