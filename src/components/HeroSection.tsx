@@ -6,7 +6,7 @@ const HeroSection: React.FC = () => {
     const { t } = useTranslation();
 
     return (
-        <section className="bg-hero-image relative flex h-screen items-center justify-center bg-cover bg-center">
+        <section className="relative flex h-screen items-center justify-center bg-hero-image bg-cover bg-center">
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <div className="relative z-10 text-center text-white">
                 <h1 className="mb-4 text-5xl font-bold">{t("hero.title")}</h1>
