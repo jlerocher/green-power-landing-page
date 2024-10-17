@@ -1,0 +1,56 @@
+{
+  "header": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Green Energy for a Sustainable Future",
+    "subtitle": "Discover our wind and solar energy solutions",
+    "cta": "Learn More"
+  },
+  "services": {
+    "title": "Our Services",
+    "wind": {
+      "title": "Wind Energy",
+      "description": "Harness the power of wind with our cutting-edge turbine technology."
+    },
+    "solar": {
+      "title": "Solar Energy",
+      "description": "Convert sunlight into clean, renewable electricity with our solar solutions."
+    },
+    "custom": {
+      "title": "Custom Solutions",
+      "description": "Tailored energy solutions to meet your specific needs and requirements."
+    }
+  },
+  "about": {
+    "title": "About GreenPower",
+    "description1": "At GreenPower, we're committed to creating a sustainable future through innovative renewable energy solutions. Our mission is to accelerate the global transition to clean, reliable, and affordable energy.",
+    "description2": "With a team of passionate experts and cutting-edge technology, we're leading the charge in wind and solar energy development. Join us in powering a greener tomorrow."
+  },
+  "testimonials": {
+    "title": "What Our Clients Say"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message"
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": "123 Green Street, Eco City, 12345",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@greenpower.com"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "header": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Énergie verte pour un avenir durable",
+    "subtitle": "Découvrez nos solutions d'énergie éolienne et solaire",
+    "cta": "En savoir plus"
+  },
+  "services": {
+    "title": "Nos Services",
+    "wind": {
+      "title": "Énergie éolienne",
+      "description": "Exploitez la puissance du vent avec notre technologie d'éoliennes de pointe."
+    },
+    "solar": {
+      "title": "Énergie solaire",
+      "description": "Convertissez la lumière du soleil en électricité propre et renouvelable avec nos solutions solaires."
+    },
+    "custom": {
+      "title": "Solutions personnalisées",
+      "description": "Des solutions énergétiques sur mesure pour répondre à vos besoins et exigences spécifiques."
+    }
+  },
+  "about": {
+    "title": "À propos de GreenPower",
+    "description1": "Chez GreenPower, nous nous engageons à créer un avenir durable grâce à des solutions énergétiques renouvelables innovantes. Notre mission est d'accélérer la transition mondiale vers une énergie propre, fiable et abordable.",
+    "description2": "Avec une équipe d'experts passionnés et une technologie de pointe, nous sommes à la pointe du développement de l'énergie éolienne et solaire. Rejoignez-nous pour alimenter un avenir plus vert."
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "send": "Envoyer le message"
+    },
+    "info": {
+      "title": "Informations de contact",
+      "address": "123 Rue Verte, Ville Écologique, 12345",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@greenpower.com"
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation"
+  }
+}
