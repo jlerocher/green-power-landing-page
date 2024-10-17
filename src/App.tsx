@@ -8,7 +8,7 @@ import TestimonialsSection from "./components/TestimonialsSection";
 
 function App() {
     return (
-        <div className="min-h-screen bg-white">
+        <div className="min-h-screen bg-background text-foreground">
             <Header />
             <main>
                 <HeroSection />

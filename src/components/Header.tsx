@@ -2,25 +2,24 @@ import { Wind } from "lucide-react";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./LanguageSwitcher";
+import { MobileMenu } from "./MobileMenu";
 
 const Header: React.FC = () => {
     const { t } = useTranslation();
 
     return (
-        <header className="bg-white shadow-md">
+        <header className="border-b border-border bg-card text-card-foreground">
             <div className="container mx-auto flex items-center justify-between px-4 py-4">
                 <div className="flex items-center">
                     <Wind className="mr-2 h-8 w-8 text-green-600" />
-                    <span className="text-xl font-bold text-gray-800">
-                        GreenPower
-                    </span>
+                    <span className="text-xl font-bold">GreenPower</span>
                 </div>
-                <nav className="flex items-center">
+                <nav className="hidden items-center md:flex">
                     <ul className="mr-6 flex space-x-6">
                         <li>
                             <a
                                 href="#"
-                                className="text-gray-600 hover:text-green-600"
+                                className="duration-400 transition-all hover:font-bold hover:text-green-600"
                             >
                                 {t("header.home")}
                             </a>
@@ -28,7 +27,7 @@ const Header: React.FC = () => {
                         <li>
                             <a
                                 href="#services"
-                                className="text-gray-600 hover:text-green-600"
+                                className="duration-400 transition-all hover:font-bold hover:text-green-600"
                             >
                                 {t("header.services")}
                             </a>
@@ -36,7 +35,7 @@ const Header: React.FC = () => {
                         <li>
                             <a
                                 href="#about"
-                                className="text-gray-600 hover:text-green-600"
+                                className="duration-400 transition-all hover:font-bold hover:text-green-600"
                             >
                                 {t("header.about")}
                             </a>
@@ -44,7 +43,7 @@ const Header: React.FC = () => {
                         <li>
                             <a
                                 href="#contact"
-                                className="text-gray-600 hover:text-green-600"
+                                className="duration-400 transition-all hover:font-bold hover:text-green-600"
                             >
                                 {t("header.contact")}
                             </a>
@@ -52,6 +51,8 @@ const Header: React.FC = () => {
                     </ul>
                     <LanguageSwitcher />
                 </nav>
+
+                <MobileMenu />
             </div>
         </header>
     );
